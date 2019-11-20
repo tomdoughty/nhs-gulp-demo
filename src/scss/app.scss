@@ -1,0 +1,14 @@
+// Core (required)
+@import 'node_modules/nhsuk-frontend/packages/core/all';
+
+// Individual component (optional)
+@import 'node_modules/nhsuk-frontend/packages/components/action-link/action-link';
+
+// Your own scss
+.my-class {
+	display: block;
+
+	&:after {
+		content: 'after content';
+	}
+}
